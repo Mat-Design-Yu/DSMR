@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+"SVC(C=21.159233693913755, gamma=10.0)",1.0,1.0,1.0,1.0,0.9776219512195121,0.9794036586719512,0.9776219512195121,0.9772585083344538,0,0,0,0,1,1,1,2,5
+<catboost.core.CatBoostClassifier object at 0x00000242F63F0CA0>,0.9634146341463414,0.9654572414210495,0.9634146341463414,0.9629052633478609,0.9777439024390244,0.9791401955090979,0.9777439024390244,0.977602439747405,1,1,1,1,0,2,0,1,7
+"RandomForestClassifier(max_depth=10, min_samples_split=4)",0.9512195121951219,0.9538392050587172,0.9512195121951219,0.9509631659377773,0.9752439024390244,0.9796679732868757,0.9751829268292681,0.9776385597259838,3,3,3,3,2,0,2,0,16
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.3815156147989647, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.11131830762116564,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=333, n_jobs=None, num_parallel_tree=None,
+              objective='multi:softprob', predictor=None, ...)",0.9512195121951219,0.9538392050587172,0.9512195121951219,0.9509631659377773,0.9678048780487805,0.9708651673529722,0.9678048780487805,0.9672250743656974,2,2,2,2,3,3,3,3,20
+DecisionTreeClassifier(max_depth=10),0.9390243902439024,0.9437572590011614,0.9390243902439024,0.9384936979920093,0.9604878048780486,0.9622018486256291,0.9580487804878048,0.9602520645537803,4,4,4,4,4,4,4,4,32
+LogisticRegression(C=20.75501921584577),0.8780487804878049,0.8910490101695248,0.8780487804878049,0.8785557868847154,0.8645731707317073,0.8764140176255066,0.8645731707317073,0.8636503797061577,5,5,5,5,5,5,5,5,40

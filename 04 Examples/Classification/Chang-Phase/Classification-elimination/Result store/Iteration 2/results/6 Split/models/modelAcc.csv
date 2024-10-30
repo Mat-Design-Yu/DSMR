@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+<catboost.core.CatBoostClassifier object at 0x000001DE21461820>,0.9875,0.9880208333333333,0.9875,0.9875538647993537,0.9774358974358973,0.978911421911422,0.9774358974358973,0.9772770411672014,0,0,0,0,1,1,1,1,4
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.355246625045441, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.029391068838257216,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=50, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=500, n_jobs=None, num_parallel_tree=None,
+              objective='multi:softprob', predictor=None, ...)",0.9625,0.9628739316239315,0.9625,0.9624412296564195,0.9799358974358974,0.980950924075924,0.9799358974358974,0.9799342078487582,1,1,1,1,0,0,0,0,4
+"RandomForestClassifier(max_depth=50, min_samples_split=20, n_estimators=1000)",0.9625,0.9628739316239315,0.9625,0.9624412296564195,0.9774358974358973,0.9784547119547119,0.9749358974358975,0.974829549792155,2,2,2,2,2,2,2,2,16
+"SVC(C=1000000.0, gamma=0.00038808415337749866)",0.9,0.915153452685422,0.9,0.898125,0.9574358974358974,0.9600556526806526,0.9574358974358974,0.9570277508850162,4,3,4,4,3,3,3,3,27
+"DecisionTreeClassifier(max_depth=10, min_samples_leaf=4, min_samples_split=4)",0.9125,0.9144760911424905,0.9125,0.911554335343095,0.9547435897435899,0.9545631035631036,0.9472435897435897,0.9549183935080011,3,4,3,3,4,4,4,4,29
+LogisticRegression(C=16.595821302227264),0.85,0.8765185758513931,0.85,0.8518887362637365,0.8970512820512822,0.9019422037514142,0.8970512820512822,0.8971411001625752,5,5,5,5,5,5,5,5,40

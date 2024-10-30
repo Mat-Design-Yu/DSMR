@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+"SVC(C=35.91465773590803, gamma=2.9758536456027893)",0.95,0.9533333333333334,0.95,0.94858934169279,0.9266666666666665,0.9419444444444445,0.9266666666666665,0.9179036796536797,0,0,0,0,0,0,0,0,0
+"RandomForestClassifier(max_depth=10, min_samples_split=4, n_estimators=10)",0.8,0.8,0.8,0.8,0.8533333333333333,0.8970039682539683,0.888888888888889,0.8292087912087913,1,4,1,1,2,1,1,2,13
+<catboost.core.CatBoostClassifier object at 0x000002BBCDC73190>,0.75,0.74,0.75,0.74294670846395,0.8744444444444444,0.8922222222222222,0.8744444444444444,0.8660111277611277,2,5,5,4,1,2,2,1,22
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=1.0, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.01, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=50, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)",0.75,0.803030303030303,0.75,0.76,0.7944444444444445,0.8125595238095238,0.7944444444444445,0.7789444444444444,3,2,3,2,4,4,4,3,25
+"DecisionTreeClassifier(max_depth=10, min_samples_leaf=4, min_samples_split=4)",0.75,0.803030303030303,0.75,0.76,0.7955555555555556,0.8179166666666667,0.8155555555555555,0.7678339438339437,4,3,4,3,3,3,3,4,27
+LogisticRegression(C=2.000676702758647),0.75,0.8157894736842106,0.75,0.6796536796536795,0.7544444444444445,0.7505873015873015,0.7544444444444445,0.7109712346477052,5,1,2,5,5,5,5,5,33

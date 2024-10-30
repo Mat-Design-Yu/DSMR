@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+"RandomForestClassifier(max_depth=10, min_samples_split=4)",0.975,0.9762820512820513,0.975,0.9747039473684211,0.9696794871794872,0.9764205721179404,0.9773076923076923,0.9746778293198404,0,0,0,1,1,0,0,0,2
+"SVC(C=259.9531719405248, gamma=2.180949596410625)",0.975,0.975,0.975,0.975,0.9673717948717948,0.9696754539320329,0.9673717948717948,0.9669577316585325,1,1,1,0,3,3,3,3,15
+<catboost.core.CatBoostClassifier object at 0x000001DE21461EE0>,0.9625,0.9625328947368421,0.9625,0.9622926829268291,0.9696153846153847,0.9707734844275091,0.9696153846153847,0.9693610861534202,2,2,2,2,2,2,2,2,16
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.7910129421502231, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=1.0, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=431, n_jobs=None, num_parallel_tree=None,
+              objective='multi:softprob', predictor=None, ...)",0.95,0.9517942583732057,0.95,0.9500908084163898,0.9697435897435897,0.9719990353214036,0.9697435897435897,0.9695420061396808,3,4,4,4,0,1,1,1,18
+DecisionTreeClassifier(max_depth=10),0.95,0.9532608695652174,0.95,0.9505411255411256,0.9521794871794873,0.9527825945983841,0.9496153846153845,0.9441775748501924,4,3,3,3,4,4,4,4,29
+LogisticRegression(C=479.60902489679876),0.8875,0.8863844393592677,0.8875,0.8862222222222222,0.8939743589743591,0.898126610589846,0.8939743589743591,0.8932584826933093,5,5,5,5,5,5,5,5,40

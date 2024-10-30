@@ -1,0 +1,18 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+"SVC(C=6.656877947101143, gamma=9.616140580294482)",1.0,1.0,1.0,1.0,0.9166666666666667,0.9382380952380952,0.9166666666666667,0.9106135531135532,0,0,0,0,0,0,0,0,0
+<catboost.core.CatBoostClassifier object at 0x000002BBCDE68640>,0.85,0.9,0.85,0.8560000000000001,0.8655555555555556,0.9012777777777778,0.8655555555555556,0.8587791375291376,1,1,1,1,1,1,1,2,9
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=1.0, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.01689441177261996,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=20, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=50, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)",0.7,0.85,0.7,0.7090909090909091,0.8655555555555555,0.8845039682539682,0.8655555555555555,0.8641260406260406,2,2,2,2,2,2,2,1,15
+"DecisionTreeClassifier(max_depth=10, min_samples_split=20)",0.7,0.85,0.7,0.7090909090909091,0.8555555555555557,0.8724206349206349,0.8555555555555557,0.856424408924409,3,3,3,3,3,3,3,3,24
+LogisticRegression(C=5.664655282732017),0.65,0.706060606060606,0.65,0.664,0.7533333333333333,0.7651190476190475,0.7533333333333333,0.7343076923076923,4,4,4,4,5,5,5,5,36
+"RandomForestClassifier(max_depth=50, min_samples_leaf=4, min_samples_split=4,
+                       n_estimators=10)",0.6,0.68,0.6,0.6166666666666666,0.8033333333333333,0.8472777777777777,0.7944444444444445,0.7894590964590964,5,5,5,5,4,4,4,4,36

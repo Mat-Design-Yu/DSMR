@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+"RandomForestClassifier(max_depth=10, min_samples_split=4)",0.90625,0.9118357487922706,0.90625,0.9080100125156445,0.875,0.8897996794871794,0.8875,0.863435284522241,0,0,0,0,0,0,0,0,0
+<catboost.core.CatBoostClassifier object at 0x000001FBA2A04340>,0.8125,0.8125,0.8125,0.8125,0.85625,0.8623863636363638,0.85625,0.8524350649350648,2,2,2,2,1,1,1,1,12
+"SVC(C=46783.58005694256, gamma=0.30093729044079953)",0.875,0.8717948717948718,0.875,0.8685714285714285,0.81875,0.8264015151515153,0.81875,0.8123518962921137,1,1,1,1,3,3,4,4,18
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=1.0, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.034244754818409474,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=50, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=50, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)",0.8125,0.8125,0.8125,0.8125,0.8375,0.8479625582750583,0.8375,0.8307624380450468,3,3,3,3,2,2,2,2,20
+"DecisionTreeClassifier(max_depth=50, min_samples_split=4)",0.75,0.8,0.75,0.7636363636363637,0.81875,0.8261174242424243,0.825,0.8147176736307171,4,4,4,4,4,4,3,3,30
+LogisticRegression(C=3.915958061167133),0.71875,0.6522988505747126,0.71875,0.6680960548885077,0.69375,0.7176495726495726,0.69375,0.6659537925842273,5,5,5,5,5,5,5,5,40

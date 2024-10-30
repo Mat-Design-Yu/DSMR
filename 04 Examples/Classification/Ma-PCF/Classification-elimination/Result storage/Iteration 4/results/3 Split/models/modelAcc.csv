@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+"DecisionTreeClassifier(max_depth=50, min_samples_split=4)",0.8,0.7608695652173912,0.8,0.7641196013289039,0.8352564102564102,0.8541542022792022,0.8352564102564102,0.8256627491302414,0,0,0,0,2,2,2,3,9
+<catboost.core.CatBoostClassifier object at 0x000001887991C070>,0.76,0.6333333333333333,0.76,0.6909090909090908,0.8762820512820513,0.8854218466718466,0.8762820512820513,0.8720437342728363,2,3,3,3,0,0,0,0,11
+"RandomForestClassifier(max_depth=10, n_estimators=1000)",0.76,0.6333333333333333,0.76,0.6909090909090908,0.8602564102564102,0.8598921448921448,0.8602564102564102,0.8462568059162487,4,5,5,5,1,1,1,1,23
+"SVC(C=1000000.0, gamma=10.0, kernel='poly')",0.76,0.7212121212121212,0.76,0.7357142857142859,0.8012820512820513,0.8033118733118734,0.8012820512820513,0.7854783467593065,5,1,2,1,4,4,4,4,25
+LogisticRegression(C=7.934754828208745),0.8,0.64,0.8,0.7111111111111111,0.7198717948717949,0.7150731675731675,0.7198717948717949,0.6983007417991939,1,2,1,2,5,5,5,5,26
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.8316635069505951, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.07266252069296211,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=16, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=64, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)",0.76,0.6333333333333333,0.76,0.6909090909090908,0.8352564102564102,0.8447995522995523,0.8352564102564102,0.828702462541472,3,4,4,4,3,3,3,2,26
