@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+<catboost.core.CatBoostClassifier object at 0x000001D1000EC1F0>,0.7777777777777778,0.8070175438596492,0.7777777777777778,0.7880952380952382,0.8736263736263735,0.887897816469245,0.8736263736263735,0.8692215313925841,1,1,1,1,0,0,0,0,4
+"RandomForestClassifier(max_depth=10, n_estimators=1000)",0.8148148148148148,0.826984126984127,0.8148148148148148,0.8196789660204294,0.8587912087912087,0.8524429736929736,0.8296703296703296,0.8265485829959515,0,0,0,0,1,2,3,3,9
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.9814597170692272, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.6161905654088919,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=50, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=490, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)",0.7407407407407407,0.7901234567901234,0.7407407407407407,0.7566951566951566,0.8445054945054945,0.8619397269397269,0.8445054945054945,0.8363941906047169,3,2,3,2,3,1,2,2,18
+DecisionTreeClassifier(max_depth=10),0.7037037037037037,0.7751633986928105,0.7037037037037037,0.7251461988304093,0.8576923076923076,0.8476419413919413,0.8653846153846153,0.8637642607650348,4,3,4,4,2,3,1,1,22
+LogisticRegression(C=0.6512767569447159),0.7777777777777778,0.7333333333333334,0.7777777777777778,0.7318840579710145,0.7197802197802198,0.7229135333530937,0.7197802197802198,0.6478125807939472,2,4,2,3,5,5,5,5,31
+"SVC(C=386444.87393414794, gamma=10.0, kernel='poly')",0.6666666666666666,0.7222222222222222,0.6666666666666666,0.6871794871794871,0.7840659340659342,0.804474691974692,0.7840659340659342,0.7858615206602824,5,5,5,5,4,4,4,4,36

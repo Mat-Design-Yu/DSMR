@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+"SVC(C=51.473698480593434, gamma=2.6591018957407995)",0.9565217391304348,0.967391304347826,0.9565217391304348,0.9590699155916547,0.9295454545454545,0.9443602693602694,0.9295454545454545,0.9268404634581104,4,1,1,1,0,0,0,0,7
+<catboost.core.CatBoostClassifier object at 0x000001BD41FE7F70>,0.9565217391304348,0.9585921325051759,0.9565217391304348,0.9527041357370096,0.9015151515151516,0.9126430976430976,0.9015151515151516,0.8919571060747531,1,2,2,2,1,1,1,1,11
+"DecisionTreeClassifier(max_depth=10, min_samples_leaf=4, min_samples_split=4)",1.0,1.0,1.0,1.0,0.7856060606060606,0.7999494949494949,0.7674242424242425,0.8058394165747108,0,0,0,0,4,4,4,4,16
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.8331275344963808, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.08569503109321394,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=38, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=96, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)",0.9565217391304348,0.9585921325051759,0.9565217391304348,0.9527041357370096,0.865151515151515,0.8640824915824916,0.865151515151515,0.8591093002857709,2,3,3,3,3,3,2,3,22
+RandomForestClassifier(max_depth=10),0.9565217391304348,0.9585921325051759,0.9565217391304348,0.9527041357370096,0.8916666666666666,0.8822643097643098,0.8568181818181818,0.8774560733384262,3,4,4,4,2,2,3,2,24
+LogisticRegression(C=10.145502101367288),0.9130434782608695,0.9478260869565218,0.9130434782608695,0.9216247139588102,0.7590909090909091,0.7357376798285888,0.7590909090909091,0.7280863924517175,5,5,5,5,5,5,5,5,40

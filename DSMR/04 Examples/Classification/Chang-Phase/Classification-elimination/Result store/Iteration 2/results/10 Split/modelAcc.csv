@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+<catboost.core.CatBoostClassifier object at 0x000001DE21645400>,1.0,1.0,1.0,1.0,0.9703658536585366,0.9717994710235563,0.9703658536585366,0.9699719983953535,0,0,0,0,1,1,1,1,4
+"RandomForestClassifier(max_depth=50, min_samples_split=4)",0.9876543209876543,0.9879708768597657,0.9876543209876543,0.9875909333273674,0.9704268292682926,0.9791316092444141,0.9753048780487804,0.9751446456464073,1,2,2,2,0,0,0,0,7
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.2915550836175179, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.023434129540956937,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=500, n_jobs=None, num_parallel_tree=None,
+              objective='multi:softprob', predictor=None, ...)",0.9629629629629629,0.9656729900632339,0.9629629629629629,0.9629053594856755,0.9653658536585364,0.9675763149452175,0.9653658536585364,0.9647929105667845,3,3,3,3,2,2,2,2,20
+DecisionTreeClassifier(max_depth=10),0.9876543209876543,0.9882154882154882,0.9876543209876543,0.9876543209876543,0.9579268292682925,0.9592740278014669,0.9580487804878048,0.9505004923458898,2,1,1,1,4,4,4,4,21
+"SVC(C=161151.52361736103, gamma=0.0851198723185629)",0.9259259259259259,0.9301987806319771,0.9259259259259259,0.9237889334196713,0.9628658536585366,0.9671588990278014,0.9628658536585366,0.9621921253728895,4,4,4,4,3,3,3,3,28
+LogisticRegression(C=122.81016992984024),0.9012345679012346,0.8987654320987654,0.9012345679012346,0.8991995658662325,0.8938414634146342,0.8983470058058473,0.8938414634146342,0.8936467115090881,5,5,5,5,5,5,5,5,40

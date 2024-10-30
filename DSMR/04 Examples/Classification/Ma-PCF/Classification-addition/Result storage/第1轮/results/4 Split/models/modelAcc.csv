@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+<catboost.core.CatBoostClassifier object at 0x0000018E948D5100>,0.8095238095238095,0.8095238095238095,0.8095238095238095,0.8095238095238095,0.8836363636363636,0.8800984848484849,0.8836363636363636,0.8609274255156609,0,1,0,0,1,2,1,2,7
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=1.0, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=1.0, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=500, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)",0.7619047619047619,0.7555555555555555,0.7619047619047619,0.7568523430592397,0.8845454545454545,0.9059469696969696,0.8845454545454545,0.8736677489177488,1,4,4,2,0,0,0,0,11
+"RandomForestClassifier(max_depth=10, min_samples_split=20)",0.7619047619047619,0.7724358974358975,0.7619047619047619,0.7654320987654321,0.8072727272727273,0.8157121212121211,0.8354545454545453,0.7782711259328907,2,2,2,1,4,4,3,4,22
+"SVC(C=1000000.0, gamma=5.569266654210734)",0.7619047619047619,0.7598039215686274,0.7619047619047619,0.7409579667644184,0.82,0.8269368686868687,0.82,0.7981390945655652,3,3,3,3,3,3,4,3,25
+"DecisionTreeClassifier(max_depth=50, min_samples_split=4)",0.7142857142857143,0.7407407407407408,0.7142857142857143,0.7211538461538461,0.8745454545454546,0.881901515151515,0.8463636363636363,0.8613535435153082,5,5,5,4,2,1,2,1,25
+LogisticRegression(C=6219.651807261148),0.7619047619047619,0.824561403508772,0.7619047619047619,0.7138047138047137,0.7890909090909091,0.7777373737373738,0.7890909090909091,0.764762332438803,4,0,1,5,5,5,5,5,30

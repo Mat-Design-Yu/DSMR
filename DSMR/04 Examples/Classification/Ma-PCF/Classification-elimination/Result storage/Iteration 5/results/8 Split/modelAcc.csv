@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+"DecisionTreeClassifier(max_depth=50, min_samples_split=4)",0.9090909090909091,0.9191919191919191,0.9090909090909091,0.9026737967914439,0.8618181818181819,0.8735858585858585,0.8618181818181819,0.8584578558696206,0,0,0,0,2,2,2,2,8
+"SVC(C=1000000.0, gamma=10.0)",0.9090909090909091,0.9191919191919191,0.9090909090909091,0.9026737967914439,0.8781818181818182,0.890340909090909,0.8781818181818182,0.8751937474290414,1,1,1,1,1,1,1,1,8
+<catboost.core.CatBoostClassifier object at 0x000001C92CAB4880>,0.8181818181818182,0.8106060606060607,0.8181818181818182,0.8053475935828878,0.9,0.9036616161616162,0.9,0.8972803666921315,3,4,4,3,0,0,0,0,14
+LogisticRegression(C=1.7156854835312432),0.8636363636363636,0.8851674641148325,0.8636363636363636,0.8467532467532467,0.7236363636363636,0.7002938475665748,0.7236363636363636,0.6777540106951873,2,2,2,2,5,5,5,5,28
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.9315595808977982, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.3561363731606434,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=43, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=394, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)",0.8181818181818182,0.8106060606060607,0.8181818181818182,0.8053475935828878,0.8527272727272728,0.8675649350649351,0.8527272727272728,0.8480033104150753,4,5,5,4,3,3,3,3,30
+"RandomForestClassifier(max_depth=50, min_samples_split=4, n_estimators=10)",0.8181818181818182,0.8545454545454546,0.8181818181818182,0.7828282828282828,0.8445454545454545,0.8529166666666667,0.8254545454545454,0.840812834224599,5,3,3,5,4,4,4,4,32

@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+<catboost.core.CatBoostClassifier object at 0x00000242F63DA2E0>,0.9878048780487805,0.9884823848238482,0.9878048780487805,0.9878955658441125,0.9705487804878048,0.9718587845081746,0.9705487804878048,0.9703489420875137,1,1,1,1,2,2,2,2,12
+"SVC(C=16.245063101079115, gamma=8.270257552871726)",0.9878048780487805,0.9884823848238482,0.9878048780487805,0.987868229331644,0.978048780487805,0.9788655111825844,0.978048780487805,0.9776795224638798,3,3,3,3,0,0,0,0,12
+DecisionTreeClassifier(max_depth=10),1.0,1.0,1.0,1.0,0.9558536585365853,0.9586271042642993,0.9582317073170732,0.9513350980089552,0,0,0,0,4,4,4,4,16
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.7628938420408043, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.14793953048908978,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=14, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=500, n_jobs=None, num_parallel_tree=None,
+              objective='multi:softprob', predictor=None, ...)",0.9878048780487805,0.9884823848238482,0.9878048780487805,0.9878955658441125,0.9680487804878048,0.9697068155421812,0.9680487804878048,0.9677088128613217,2,2,2,2,3,3,3,3,20
+"RandomForestClassifier(max_depth=50, n_estimators=1000)",0.975609756097561,0.975609756097561,0.975609756097561,0.975609756097561,0.9730487804878049,0.9739955924833975,0.9754878048780486,0.9728513689661668,4,4,4,4,1,1,1,1,20
+LogisticRegression(C=0.5003108546242251),0.8902439024390244,0.8938250096786681,0.8902439024390244,0.8891147444395345,0.8522560975609755,0.8597595709453861,0.8522560975609755,0.8502663614289462,5,5,5,5,5,5,5,5,40

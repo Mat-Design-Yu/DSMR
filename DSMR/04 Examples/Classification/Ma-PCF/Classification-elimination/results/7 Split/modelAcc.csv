@@ -1,0 +1,17 @@
+,Accuracy,Precision,Recall,F1,10kf_Accuracy,10kf_Precision,10kf_Recall,10kf_F1,Accuracy_sort,Precision_sort,Recall_sort,F1_sort,10kf_Accuracy_sort,10kf_Precision_sort,10kf_Recall_sort,10kf_F1_sort,sort_score
+<catboost.core.CatBoostClassifier object at 0x000002D52E697520>,0.9444444444444444,0.9484126984126983,0.9444444444444444,0.9423868312757201,0.9194444444444445,0.9331349206349205,0.9194444444444445,0.9094220594220594,0,0,0,0,1,1,1,1,4
+"SVC(C=499875.3810334861, gamma=0.0313027296307359)",0.8888888888888888,0.9037037037037037,0.8888888888888888,0.878968253968254,0.9333333333333332,0.9441798941798941,0.9333333333333332,0.9293650793650794,2,1,1,2,0,0,0,0,6
+"RandomForestClassifier(max_depth=10, min_samples_split=4, n_estimators=1000)",0.8888888888888888,0.8888888888888888,0.8888888888888888,0.8888888888888888,0.8763888888888889,0.8931878306878307,0.8652777777777777,0.8696251896251896,1,2,2,1,2,2,2,2,14
+"DecisionTreeClassifier(max_depth=50, min_samples_split=4)",0.8333333333333334,0.8472222222222222,0.8333333333333334,0.8375757575757574,0.826388888888889,0.8635582010582011,0.85,0.8241256891256891,3,4,4,3,3,3,3,3,26
+LogisticRegression(C=6219.651807261148),0.8333333333333334,0.8645833333333334,0.8333333333333334,0.80623973727422,0.7944444444444445,0.7589395943562609,0.7944444444444445,0.7588980463980464,4,3,3,4,5,5,5,5,34
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.1, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.024579168781254285,
+              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=7, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=314, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)",0.7777777777777778,0.7777777777777778,0.7777777777777778,0.7777777777777778,0.8166666666666667,0.8048941798941799,0.8166666666666667,0.796086321086321,5,5,5,5,4,4,4,4,36
