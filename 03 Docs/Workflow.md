@@ -1,17 +1,5 @@
-# Auto-APE
-An Unbiased Automated Recommendation Framework for Machine Learning in Materials Science
+# DSMR Workflow
 
-The main part of the code includes the Auto-APE framework and the PySR feature generation module, and the specific applicable methods are referred to the published literature.
+the DPMR framework explores the three-dimensional space of optimal data subsets, algorithms, and hyperparameters. The MR module of the framework acts like a child seeking a path, exploring the three-dimensional space to find the optimal combination. Guided by Bayesian optimization, the child possesses the ability for global exploration. Meanwhile, evaluation metrics act as a compass, guiding the gradual optimization of the model, while the DS module adjusts the data to provide the child with suitable learning materials. During the iterative process, the dataset (X,Y) first undergoes a round of random shuffling, followed by step a, where it is divided into subsets of size N, with each subset eliminating a different portion to prevent excessive differences in data distribution. Next, each subset enters the MR module in step b, where normalization is applied, and Bayesian optimization is used to globally explore the hyperparameter combinations of the chosen algorithms. Then, step c employs cross-validation to evaluate the results, ranking all models by performance, retaining the best model and data subset combination, and selecting the optimal subset K for the next round. If data elimination reaches a performance bottleneck, the framework switches to step d to recycle samples, similarly dividing and re-adding the eliminated data by size N, and entering the MR module for model exploration. Finally, step e continues to evaluate and rank the models, terminating the process when model performance reaches a bottleneck or data can no longer be divided.
 
-![Alt text](image.png)
-
-Abstract：Machine learning is attracting rising interest in the field of materials science. However, the algorithm-selection criteria are not clear, manual parameter adjustment introduces human bias, and single metric cannot evaluate various models well. To tackle these challenges, this paper introduces an Auto-APE framework that integrates various regression algorithms, automated tuning methods, and comprehensive evaluation metrics to recommend the optimal model. Based on this framework, the leave-one-out elimination and addition methods are integrated for data screening. Additional features are generated via symbolic regression to enhance the relationship between features and properties. Finally, this workflow is applied to the hardness prediction of Al-Co-Cr-Cu-Fe-Ni high entropy alloys. The 10-fold CV RSME of the best model is reduced by 32% after data screening and an additional 7% after features addition. This Auto-APE framework can provide unbiased modeling and evaluating strategy to accelerate the application of machine learning in material design.
-
-Key words： Machine learning, Data augmentation, Feature engineering, Symbolic regression, High-entropy alloys
-
-Highlights：
-1.	An Auto-APE framework is used to unbiasedly recommend models
-
-2.	Optimize datasets with leave-one-out elimination and addition
-
-3.	symbolic regression features bridge component-hardness relationships
+![Alt text](Fig2.png)
